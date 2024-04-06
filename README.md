@@ -1,15 +1,23 @@
-# State'in ortaya çıkma noktası
+<h1> React State </h1>
 
-React uygulamalarında bileşen içerisinde kullanıcı etkileşimi sonucu ara yüz üzerinde değişim olmasını isteyebiliriz. Örn.butona tıkladığımızda tema değişimi. Yani bir etkileşimle, bir koşula göre tetiklenen işlemler.
+Basics of React State
 
-# State
+<h2> Overview </h2>
 
-State bileşen içerisinde verileri saklamaya ve yönetmeye yarayan yapıya verilen isimdir. Örn. bir sayaç yapıyoruz + butonuna basınca arta, - butonuna basınca azalan bir işlem. Tutmamız gereken yapı dinamik olarak değişen veri sayacın sayısı.
-State'in değeri her değiştiğinde bileşen otomatik olarak tekrardan render olur (yani return satırı tekrar çalışır). Bu sayede state'e bağlı olarak görünümü değişecek arayüz yapıları güncellenmiş olur.
+We have learned the basics of how to use state, how it emerged in the first place and how useState functions.
 
-Eğer ki tuttuğumuz değişkenin değerinde bir değişim olduğunda arayüzde bir değişim olması gerekiyorsa state'i tercih ederiz.
+<h2> Technologies Used </h2>
 
-State doğrudan değiştirilemez. Değiştirmek için setMethod'u kullanılır.
+<ul>
 
-useState(x): useState'i kullanırken x yazılan yere Initial State yani başlangıç state'i denir. State'in bileşen ekrana basılınca sahip olacağı ilk değere denk geliyor. Yani sayfayı yenilediğimiz anda sahip olacağı değer.
-# ReactCounter
+<li> CSS </li> </br>
+
+<li> Javascript </li> </br>
+
+<li> React </li> </br>
+
+</ul>
+
+<h2> Screen gif </h2>
+
+![](screen.gif)
